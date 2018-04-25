@@ -29,7 +29,8 @@ class SpiderMain(object):
             count=count+1
            except:
                print 'craw failed'
-        self.outputer.output_html()                                     #输出搜集好的数据
+           finally:
+               self.outputer.output_html()                                     #输出搜集好的数据
 
 
 if __name__=="__main__":

@@ -9,7 +9,7 @@ class HtmlOutputer(object):
         self.data.append(data)
 
     def output_html(self):
-        fout=open('output.html','w')
+        fout=open('F:/spider/baike_spider/output.html','w')
 
         fout.write("<html>")
         fout.write("<body>")
